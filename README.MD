@@ -17,7 +17,7 @@ int main() {
     auto addr = reinterpret_cast<unsigned long>(text_);
 
     for(int i = 0; i < strlen(text_); i++) {
-        std::cout << *reinterpret_cast<char*>(addr + i);
+        std::cout << *reinterpret_cast<char*>(addr + (i * sizeof(char)));
     }
 
     return 0;
@@ -37,8 +37,8 @@ int main() {
     🧱 🅰️👉 text_ 💾 text.c_str︵︶ 🛑
     🚗 addr = 🎭<😊 🥒>︵text_︶ 🛑
 
-    🔀 (🔟 i 💾 0🛑 i < strlen︵text_︶🛑 i➕➕) ︷
-        📙::cout << 👉🎭<🅰️👉>(addr ➕ i) 🛑
+    🔀 ︵🔟 i 💾 0🛑 i < strlen︵text_︶🛑 i➕➕︶ ︷
+        📙::cout << 👉🎭<🅰️👉>︵addr ➕ ︵i * 📏︵👉︶︶︶ 🛑
     ︸
 
     🔙 0 🛑
