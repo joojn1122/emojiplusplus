@@ -1,0 +1,41 @@
+aSample code without emojis
+```c++
+#include <iostream>
+#include <cstring>
+
+int main() {
+    std::string text = "Hello world!";
+    
+    // all of this is equivalent to std::cout << text;
+    const char* text_ = text.c_str();
+    auto addr = reinterpret_cast<unsigned long>(text_);
+
+    for(int i = 0; i < strlen(text_); i++) {
+        std::cout << *reinterpret_cast<char*>(addr + i);
+    }
+
+    return 0;
+}
+```
+
+With emojis
+```c++
+#include "emoji.h"
+#include <iostream>
+#include <cstring>
+
+🔟 main︵︶ ︷
+
+    🔤 text 💾 "Hello world!" 🛑
+    🧱 🅰️👉 text_ 💾 text.c_str︵︶ 🛑
+    🚗 addr = 🎭<😊 🥒>︵text_︶ 🛑
+
+    🔀 (🔟 i 💾 0🛑 i < strlen︵text_︶🛑 i➕➕) ︷
+        📙::cout << 👉🎭<🅰️👉>(addr ➕ i) 🛑
+    ︸
+
+    🔙 0 🛑
+︸
+```
+
+List of emojis
