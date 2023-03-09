@@ -1,4 +1,10 @@
-aSample code without emojis
+# Emoji++
+
+
+`Emoji++` is **enhanced** `c++`
+
+
+#### Sample code without emojis
 ```c++
 #include <iostream>
 #include <cstring>
@@ -18,7 +24,8 @@ int main() {
 }
 ```
 
-With emojis
+
+#### With emojis 😎
 ```c++
 #include "emoji.h"
 #include <iostream>
@@ -38,4 +45,5 @@ With emojis
 ︸
 ```
 
-List of emojis
+#### List of emojis
+- TODO
