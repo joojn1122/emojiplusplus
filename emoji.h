@@ -8,7 +8,7 @@
 #define 📕 case
 #define 🎣 catch
 #define 🅰️ char
-#define 📙 std
+// #define 📙 std
 #define 🔤 📙::string
 #define ➕ +
 #define ➖ -
@@ -42,7 +42,7 @@
 #define 🍑 public
 #define ®️ register
 #define 🎭 reinterpret_cast
-#define 📝 requires
+// #define 📝 requires
 #define 🔙 return
 #define ♾️ signed
 #define 📏 sizeof
@@ -67,3 +67,12 @@
 #define ︷ {
 #define ︸ }
 #define 💾 =
+
+#define 🚪 main
+#define 📚 std
+#define 📝 📚::cout
+
+#define ︿ <
+#define ﹀ >
+#define ︽ <<
+#define ︾ >>
