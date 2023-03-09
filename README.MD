@@ -1,8 +1,8 @@
 # Emoji++
 
 
-`Emoji++` is **enhanced** `c++`
-
+> `Emoji++` is **enhanced** `c++`
+>> Not every compiler supports **emoji macros**!
 
 #### Sample code without emojis
 ```c++
@@ -31,19 +31,20 @@ int main() {
 #include <iostream>
 #include <cstring>
 
-🔟 main︵︶ ︷
+🔟 🚪︵︶ ︷
 
     🔤 text 💾 "Hello world!" 🛑
     🧱 🅰️👉 text_ 💾 text.c_str︵︶ 🛑
-    🚗 addr = 🎭<😊 🥒>︵text_︶ 🛑
+    🚗 addr = 🎭︿😊 🥒﹀︵text_︶ 🛑
 
-    🔀 ︵🔟 i 💾 0🛑 i < strlen︵text_︶🛑 i➕➕︶ ︷
-        📙::cout << 👉🎭<🅰️👉>︵addr ➕ ︵i * 📏︵👉︶︶︶ 🛑
+    🔀 ︵🔟 i 💾 0🛑 i ︿ strlen︵text_︶🛑 i➕➕︶ ︷
+        📝 ︽ 👉🎭︿🅰️👉﹀︵addr ➕ ︵i 👉 📏︵🅰️︶︶︶ 🛑
     ︸
 
     🔙 0 🛑
 ︸
 ```
+
 
 #### List of emojis
 - TODO
